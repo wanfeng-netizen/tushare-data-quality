@@ -1,0 +1,1512 @@
+{
+  "schema": "tushare-suspend-d-weekly-gap-audit-v1",
+  "audit_date": "2026-10-13",
+  "status": "OPEN",
+  "scope": "posthoc weekly historical market gap audit; read-only extraction from pinned receipts",
+  "source_market_gap_report_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/WEEKLY_HISTORICAL_MARKET_GAPS_2026-10-12.json",
+  "source_market_gap_report_sha256": "sha256:4104c60126d6aad7699a0328f0048537c7463a7a31ee847562d456cd5336cf75",
+  "source_range_report_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/WEEKLY_HISTORICAL_SOURCE_RANGE_DETAILS_V3_2026-10-12.json",
+  "source_range_report_sha256": "sha256:043cb92561adcae00d77fd3a67ffb046862d84cbde98a3e4beab0225fc68f5c9",
+  "classification_counts": {
+    "BSE_OLD_CODE_FULL_DAY_S": 67,
+    "S_R_SAME_DAY": 7,
+    "TIMED_S_NO_DAILY_BAR": 2
+  },
+  "stock_day_count": 76,
+  "distinct_canonical_codes": 14,
+  "bse_alias_status": "candidate mapping inferred from same-suffix old-code suspend_d rows; validate and pin against Tushare bse_mapping before formal audit acceptance",
+  "records": [
+    {
+      "trade_date": "2024-10-22",
+      "canonical_code": "920964.BJ",
+      "suspend_d_code": "830964.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241022",
+          "ts_code": "830964.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:703017bfd8f1f48954a6442192be7131b0f0f6ad1c90e5411f092409726d8dfd",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241022-703017bfd8f1f489.json",
+      "market_receipt_sha256": "sha256:6c0d4573b986e89e46f9b0960af197b7038d346a41acbf64702b1466bc4795a3",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241022-6c0d4573b986e89e.json"
+    },
+    {
+      "trade_date": "2024-10-23",
+      "canonical_code": "920964.BJ",
+      "suspend_d_code": "830964.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241023",
+          "ts_code": "830964.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:8928e448fa14ebd5c517598b2ebc28585a421e5816f45804d819b11d2c027607",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241023-8928e448fa14ebd5.json",
+      "market_receipt_sha256": "sha256:a0fc5e030f68f1c3db3b282d69bed0c0e85c2b9aa394fa0ceb26e0f8d1e15b31",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241023-a0fc5e030f68f1c3.json"
+    },
+    {
+      "trade_date": "2024-10-24",
+      "canonical_code": "920964.BJ",
+      "suspend_d_code": "830964.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241024",
+          "ts_code": "830964.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:09e12b65a1198215efb05a25283001b7723b9370af7622c55470d82383315b90",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241024-09e12b65a1198215.json",
+      "market_receipt_sha256": "sha256:067c273f2d2fd94bbad633288e63c419274063665a7b8e251d0d34612583322b",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241024-067c273f2d2fd94b.json"
+    },
+    {
+      "trade_date": "2024-10-25",
+      "canonical_code": "920964.BJ",
+      "suspend_d_code": "830964.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241025",
+          "ts_code": "830964.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:df60769cd73d93ec393c5e2f2fbe9f6688ec56f07a6cb2ac106c55c4d29101f6",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241025-df60769cd73d93ec.json",
+      "market_receipt_sha256": "sha256:c2d1125f13dbf29b752f1d6df7e861a64772b0605382e98983d1c21f9e531306",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241025-c2d1125f13dbf29b.json"
+    },
+    {
+      "trade_date": "2024-11-26",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241126",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:193f559f5da1272caf7cc0efc1b83230cf69465c44ef58e1347d55812e7c1085",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241126-193f559f5da1272c.json",
+      "market_receipt_sha256": "sha256:a93875d1f6d41b65c97b60e5c48b3d323665bb1072042e6ea9d6bc99aec27cfb",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241126-a93875d1f6d41b65.json"
+    },
+    {
+      "trade_date": "2024-11-27",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241127",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:7f6f049245f2905b98dd5926a384a6d1a4956deca3388e625b65ae6eb0fa94c9",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241127-7f6f049245f2905b.json",
+      "market_receipt_sha256": "sha256:3ef9b1d96b2fa681713ef780c99f7855a0e5a627347241a105efdeb7195fda5f",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241127-3ef9b1d96b2fa681.json"
+    },
+    {
+      "trade_date": "2024-11-28",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241128",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:0b844b00e752769835a66d8e6a22a31561cb63dd4b12843dbd6212aac20fedaf",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241128-0b844b00e7527698.json",
+      "market_receipt_sha256": "sha256:57d0d3fcd5130b317f7202a9dfb019242a973a01180bb9d73e0b04cab627a41a",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241128-57d0d3fcd5130b31.json"
+    },
+    {
+      "trade_date": "2024-11-29",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241129",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:0247fa98d9bdcaaa1049739029217d5ac7d0e7a7ee5ef8b01f94ed21059c624f",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241129-0247fa98d9bdcaaa.json",
+      "market_receipt_sha256": "sha256:afe4580bb0a47584ac92df89da8fcdd9bf1816535fe3faad79a187c688b67c91",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241129-afe4580bb0a47584.json"
+    },
+    {
+      "trade_date": "2024-12-02",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241202",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ba64e6188ea11835e5de347dbffbce3bf2fc960b02e93b8b0dd84bd6558fcf6e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241202-ba64e6188ea11835.json",
+      "market_receipt_sha256": "sha256:f179653c1337cbb45bba44117108fc09aa61355d4e8e9c544c11ae0518100879",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241202-f179653c1337cbb4.json"
+    },
+    {
+      "trade_date": "2024-12-03",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241203",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:7f7e3361480a9194734d50611ea4723ecc8f77d1166440f08ea45ba8aaa0d990",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241203-7f7e3361480a9194.json",
+      "market_receipt_sha256": "sha256:a2b2d48d87a73e5fc7f4bb097bba3c117ec0a2f857b87c84bf903ea43cf99bfb",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241203-a2b2d48d87a73e5f.json"
+    },
+    {
+      "trade_date": "2024-12-04",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241204",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:a7fb2573e3fd02b1bfd9bd98e11e57759fd002eeb1afd30dd16ef0a1cec3a09c",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241204-a7fb2573e3fd02b1.json",
+      "market_receipt_sha256": "sha256:3ca950441be70d370513379068ce9c36d4260c7d341f9290db601397c88af587",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241204-3ca950441be70d37.json"
+    },
+    {
+      "trade_date": "2024-12-05",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241205",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:a8648778c3fa165ec800426101c0aac66e13d90378c16569e71f9cd0e38cb364",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241205-a8648778c3fa165e.json",
+      "market_receipt_sha256": "sha256:212b3787e114b4bb1a168358fa5a4ef2f51a41076f154284e9fdefd5786551b9",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241205-212b3787e114b4bb.json"
+    },
+    {
+      "trade_date": "2024-12-06",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241206",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:205643b45ac5c8799135deb5b7386e2edcdb40fed321974b4c2b2fec72d0d05f",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241206-205643b45ac5c879.json",
+      "market_receipt_sha256": "sha256:48d58e473b3f31a46e135d6584287cd2645621a137c25ae0fc6046c20e1ba5f2",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241206-48d58e473b3f31a4.json"
+    },
+    {
+      "trade_date": "2024-12-09",
+      "canonical_code": "920174.BJ",
+      "suspend_d_code": "835174.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20241209",
+          "ts_code": "835174.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:fbee997adb999ece0f98926b7175dab7eb1362678a54fd897170af075454c57c",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20241209-fbee997adb999ece.json",
+      "market_receipt_sha256": "sha256:811de9667dbb7a2f4b38187684b765db3d3acb37876ef6ab2ff79d7f92a02964",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20241209-811de9667dbb7a2f.json"
+    },
+    {
+      "trade_date": "2025-04-30",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250430",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:e098c48c83a77bc270eec3cf0d45b51b651576c8f4a75e19eff8375971277b64",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250430-e098c48c83a77bc2.json",
+      "market_receipt_sha256": "sha256:e9a4a52f780ee1725773e1f7b27189c83c0c95fd8773f4494d8bd7495a2775c4",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250430-e9a4a52f780ee172.json"
+    },
+    {
+      "trade_date": "2025-04-30",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250430",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:e098c48c83a77bc270eec3cf0d45b51b651576c8f4a75e19eff8375971277b64",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250430-e098c48c83a77bc2.json",
+      "market_receipt_sha256": "sha256:e9a4a52f780ee1725773e1f7b27189c83c0c95fd8773f4494d8bd7495a2775c4",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250430-e9a4a52f780ee172.json"
+    },
+    {
+      "trade_date": "2025-05-26",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250526",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:c1beda21810ba9f813403a0d01f73387e5f1de7357f998bbd1b8dc57c840e5a0",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250526-c1beda21810ba9f8.json",
+      "market_receipt_sha256": "sha256:e55891265dcf6874aed0924619be939040e40b1997fb7cd96a1f3f060939a44d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250526-e55891265dcf6874.json"
+    },
+    {
+      "trade_date": "2025-05-27",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250527",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ed1fff4414c22822306e7235722d02c86ee836b229a1296ba4cd5a7e4e0a4856",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250527-ed1fff4414c22822.json",
+      "market_receipt_sha256": "sha256:d94a30da8d817a72a4769be61f507da8e378c4cc256cee913f8630e97e9df54e",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250527-d94a30da8d817a72.json"
+    },
+    {
+      "trade_date": "2025-05-28",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250528",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:427682e901864864a115914cf10a92a9d060db4c91148d7139481e15a47a9549",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250528-427682e901864864.json",
+      "market_receipt_sha256": "sha256:88d95141b04452bb9b30b949f254838a3f9fe7463844122ec2d50385ebedf03f",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250528-88d95141b04452bb.json"
+    },
+    {
+      "trade_date": "2025-05-29",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250529",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:dbb3bfa4d2af598d196c98db4d513b0e32b86770b6cfc42e010ffad77a9b5e02",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250529-dbb3bfa4d2af598d.json",
+      "market_receipt_sha256": "sha256:219b289ed3d5055211f37ad583bcde0ebfd41fc19189d56b76567be7e3283fce",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250529-219b289ed3d50552.json"
+    },
+    {
+      "trade_date": "2025-05-30",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250530",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:1b3b86c0413e5a1c50b83233b488c861e7e39bc38a46737344d544397fde46fe",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250530-1b3b86c0413e5a1c.json",
+      "market_receipt_sha256": "sha256:30085a78375bb39de7edce4149ab323882692fd7324ded57ab412591c7cf6b12",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250530-30085a78375bb39d.json"
+    },
+    {
+      "trade_date": "2025-06-03",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250603",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:0ab1b5406f481d79ce9b3a6b507f63c8a81f56bddf5dea1d2a415c864f6acac5",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250603-0ab1b5406f481d79.json",
+      "market_receipt_sha256": "sha256:c7c647f728a5174a7887b10e99bdcfe3d1f29d2f024105d2f896acc0462d6e84",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250603-c7c647f728a5174a.json"
+    },
+    {
+      "trade_date": "2025-06-04",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250604",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:40f8006655781dd3d12547629e81a4c5a2d8c604c6f33a589c3db93327633229",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250604-40f8006655781dd3.json",
+      "market_receipt_sha256": "sha256:7b66cbb168f223045ee52851088bfc358a360395f41b9f804109e2854ea01a2b",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250604-7b66cbb168f22304.json"
+    },
+    {
+      "trade_date": "2025-06-05",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250605",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:37d5059726ab95d05105cc598fd607e78da39e3f29236476966026c44e0deba4",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250605-37d5059726ab95d0.json",
+      "market_receipt_sha256": "sha256:8e0f27e24b4b177a6ddb1d089963c272d1f114b2ac94cf44139a0a766e24392f",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250605-8e0f27e24b4b177a.json"
+    },
+    {
+      "trade_date": "2025-06-06",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250606",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:b8cee810dc4e9bb67ad0108a06d2641f2b6ca46e2ed13820d37c2e7cc99726bf",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250606-b8cee810dc4e9bb6.json",
+      "market_receipt_sha256": "sha256:24e703285ef5f165fbc3e02c31af2581f80373be1b8cb804e0fa43c16570b861",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250606-24e703285ef5f165.json"
+    },
+    {
+      "trade_date": "2025-06-09",
+      "canonical_code": "920808.BJ",
+      "suspend_d_code": "872808.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250609",
+          "ts_code": "872808.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:684e9102fb52a5b2b6bbd83abfb125024b186afee869b70c9a7d473372df858b",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250609-684e9102fb52a5b2.json",
+      "market_receipt_sha256": "sha256:7d445139e832b08495eb31ec2ea21e52a9d2fa10c75ef7a0a784145462e36ee5",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250609-7d445139e832b084.json"
+    },
+    {
+      "trade_date": "2025-06-16",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250616",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:5a66a4f28af85355dee7021beca1563ce2dcef4b232c06d3ecb8977d26325de3",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250616-5a66a4f28af85355.json",
+      "market_receipt_sha256": "sha256:8df3e507ea97c282ee3da85fb9371396746b3bf550f2b103e2d591432c242f52",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250616-8df3e507ea97c282.json"
+    },
+    {
+      "trade_date": "2025-06-27",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250627",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:5d7c5b18854eb6a2e7817061a202e9f0b08b05dc06074a22a597a3c602099682",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250627-5d7c5b18854eb6a2.json",
+      "market_receipt_sha256": "sha256:dc61a3062fc91e30395a68c817ba1d02add2203f36f8e97fb0cccdaf6388da2e",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250627-dc61a3062fc91e30.json"
+    },
+    {
+      "trade_date": "2025-06-30",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250630",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:27f51948d168e5bb835fb0661ca400d0a12dbb64a6884a8061027ab5fdbdfb83",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250630-27f51948d168e5bb.json",
+      "market_receipt_sha256": "sha256:2fb78dd164b921569b01977e732b6d7b7516365a260480463ebd0c71d0f64f39",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250630-2fb78dd164b92156.json"
+    },
+    {
+      "trade_date": "2025-07-01",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250701",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:c32bbd1575763bd2fe97a12709ac77b78afe97c00c18b78bedb5b7012a3a703e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250701-c32bbd1575763bd2.json",
+      "market_receipt_sha256": "sha256:4c530ac8a7e623ec7ba681ad46307623a5ab4edfc6f773846745ca4f56257bff",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250701-4c530ac8a7e623ec.json"
+    },
+    {
+      "trade_date": "2025-07-02",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250702",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ed203e108998caefd78142e157697382860db098bcff2b3ab998afdfdcb41a91",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250702-ed203e108998caef.json",
+      "market_receipt_sha256": "sha256:4f062b124644c9d7336a0e53ea9ebf694db5b6682721b396ca695ff000147229",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250702-4f062b124644c9d7.json"
+    },
+    {
+      "trade_date": "2025-07-03",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250703",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:587173ce6f42275265a756a43ea32231b5010b9f63ea1a8da45f8ba70c38cb81",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250703-587173ce6f422752.json",
+      "market_receipt_sha256": "sha256:3d75059746d089716158ecbd860a9619faaad63508340467645f581a55062426",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250703-3d75059746d08971.json"
+    },
+    {
+      "trade_date": "2025-07-07",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250707",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:b4e1911bb0704ede0a107b82fc12449ed20202509ddbefc61a29f3c1640adb7f",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250707-b4e1911bb0704ede.json",
+      "market_receipt_sha256": "sha256:4301676b7eb5c93f4922605fa2601fd5e725fd8aa0233db11d00a086cfcdc2dd",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250707-4301676b7eb5c93f.json"
+    },
+    {
+      "trade_date": "2025-07-07",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250707",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:b4e1911bb0704ede0a107b82fc12449ed20202509ddbefc61a29f3c1640adb7f",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250707-b4e1911bb0704ede.json",
+      "market_receipt_sha256": "sha256:4301676b7eb5c93f4922605fa2601fd5e725fd8aa0233db11d00a086cfcdc2dd",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250707-4301676b7eb5c93f.json"
+    },
+    {
+      "trade_date": "2025-07-08",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250708",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:a4681b06ffba97f825ee93cdea14f4bcea6824f3bcfb9180731aabe70537572e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250708-a4681b06ffba97f8.json",
+      "market_receipt_sha256": "sha256:c43dd0de892d8c4103152d9954b275ac32a0303827509a13f33910d75f2e7960",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250708-c43dd0de892d8c41.json"
+    },
+    {
+      "trade_date": "2025-07-08",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250708",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:a4681b06ffba97f825ee93cdea14f4bcea6824f3bcfb9180731aabe70537572e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250708-a4681b06ffba97f8.json",
+      "market_receipt_sha256": "sha256:c43dd0de892d8c4103152d9954b275ac32a0303827509a13f33910d75f2e7960",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250708-c43dd0de892d8c41.json"
+    },
+    {
+      "trade_date": "2025-07-09",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250709",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:33f562afd6bd6c1a9d46a971ef49bdeb1dbbc6d9be018ebdffb7ca03f251e40a",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250709-33f562afd6bd6c1a.json",
+      "market_receipt_sha256": "sha256:a966743934cd7504e43b3a5eedcc5a4f477a82057971e45864c2de809aec492d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250709-a966743934cd7504.json"
+    },
+    {
+      "trade_date": "2025-07-09",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250709",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:33f562afd6bd6c1a9d46a971ef49bdeb1dbbc6d9be018ebdffb7ca03f251e40a",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250709-33f562afd6bd6c1a.json",
+      "market_receipt_sha256": "sha256:a966743934cd7504e43b3a5eedcc5a4f477a82057971e45864c2de809aec492d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250709-a966743934cd7504.json"
+    },
+    {
+      "trade_date": "2025-07-10",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250710",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:65bff47982ec73e37ab6aeb1c3042416112bf72ae52d3acea5a57d53551b8198",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250710-65bff47982ec73e3.json",
+      "market_receipt_sha256": "sha256:6db0f59625afef2e3bf3c570e8c0e83c3c2a3e104267d08d1acf3720d7306151",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250710-6db0f59625afef2e.json"
+    },
+    {
+      "trade_date": "2025-07-10",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250710",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:65bff47982ec73e37ab6aeb1c3042416112bf72ae52d3acea5a57d53551b8198",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250710-65bff47982ec73e3.json",
+      "market_receipt_sha256": "sha256:6db0f59625afef2e3bf3c570e8c0e83c3c2a3e104267d08d1acf3720d7306151",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250710-6db0f59625afef2e.json"
+    },
+    {
+      "trade_date": "2025-07-11",
+      "canonical_code": "920305.BJ",
+      "suspend_d_code": "835305.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250711",
+          "ts_code": "835305.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ab84ed0880e8f62ada40ed3b8975d57fe3d69cdaee61b1f2432a33d823f50999",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250711-ab84ed0880e8f62a.json",
+      "market_receipt_sha256": "sha256:1f8d9491e137b77416c59cb62a136373df8b423ee4c029ae14420e17839c7c63",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250711-1f8d9491e137b774.json"
+    },
+    {
+      "trade_date": "2025-07-11",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250711",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ab84ed0880e8f62ada40ed3b8975d57fe3d69cdaee61b1f2432a33d823f50999",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250711-ab84ed0880e8f62a.json",
+      "market_receipt_sha256": "sha256:1f8d9491e137b77416c59cb62a136373df8b423ee4c029ae14420e17839c7c63",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250711-1f8d9491e137b774.json"
+    },
+    {
+      "trade_date": "2025-07-17",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250717",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:9263da33905fcecdf94763cbbde3e005ebf5b1f64854abd384e23e7d9e2b52a5",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250717-9263da33905fcecd.json",
+      "market_receipt_sha256": "sha256:117cdcee18bde685c6dea7dd84babac4112a2f4c024dfdf47edb567492a626ca",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250717-117cdcee18bde685.json"
+    },
+    {
+      "trade_date": "2025-07-18",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250718",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ffe9ed69716ed3fc7bbfb12d3b44d68f0ba42fa9055b7e7ea6618e602e88cbab",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250718-ffe9ed69716ed3fc.json",
+      "market_receipt_sha256": "sha256:9c7d9e39e5933a42150c593fc3eb8eda0616da976337ab3a5f375fdea1b56187",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250718-9c7d9e39e5933a42.json"
+    },
+    {
+      "trade_date": "2025-07-21",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250721",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:548926a56001e135dfda5055ca57c0fb2a33982ecffef534bcd5aef3818ea691",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250721-548926a56001e135.json",
+      "market_receipt_sha256": "sha256:c8fd28242a6c8093a3501a9f754b739d975350ead40d8c5c50747044ef9517d6",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250721-c8fd28242a6c8093.json"
+    },
+    {
+      "trade_date": "2025-07-22",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250722",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:7ddb0efb99f43c16e1e998cb6001ed7d9e1be34cc36fffe42aab771cd967238c",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250722-7ddb0efb99f43c16.json",
+      "market_receipt_sha256": "sha256:56f9f413b88b8594c3f75da64ed8920e824a515625f0fa8129d515d2ffd4eacb",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250722-56f9f413b88b8594.json"
+    },
+    {
+      "trade_date": "2025-07-23",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250723",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:e79c610911422dad6c69b2cc3cdf8d78855e0797867836d2a43dcda18a7fc84f",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250723-e79c610911422dad.json",
+      "market_receipt_sha256": "sha256:ee56f07c404e5e948b999b1566ea694bf3ed975ef5db5ec0863a857fd96a4677",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250723-ee56f07c404e5e94.json"
+    },
+    {
+      "trade_date": "2025-07-24",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250724",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:654945d022fcb94d591c65ae168d0e48f851dfcbc7a006f360f2c56356872255",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250724-654945d022fcb94d.json",
+      "market_receipt_sha256": "sha256:ae4b8adb2077b0ed3ff0db7f02248b012e89213d9837324daac1235ae256ed2a",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250724-ae4b8adb2077b0ed.json"
+    },
+    {
+      "trade_date": "2025-07-25",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250725",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:f04e833b339343bc415bedf55ed5fb552d3ad0fb6bb11e782c90a37f23d154fb",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250725-f04e833b339343bc.json",
+      "market_receipt_sha256": "sha256:f344e5269ed71d72877eb923855bd3fcf7f9b09161b4a73a6f57c16c36172288",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250725-f344e5269ed71d72.json"
+    },
+    {
+      "trade_date": "2025-07-28",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250728",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:3ab94b0636cd1c4f384dcc02bf332ebe885db75bdbbc6ad1af5ffdaf916c5056",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250728-3ab94b0636cd1c4f.json",
+      "market_receipt_sha256": "sha256:1a0d89c176f69a1722f98b7ceb155e7cb100971c8073ea7301c5673eb797c3e5",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250728-1a0d89c176f69a17.json"
+    },
+    {
+      "trade_date": "2025-07-29",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250729",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:9abfb9afd659c7dac293d5224c3a693a4f4b92f2073f0e4daab34afb182723a4",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250729-9abfb9afd659c7da.json",
+      "market_receipt_sha256": "sha256:8328243fe61c5d7edcb58614f1a7d04b7357756a5ae7faa8986cf86af5b95d57",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250729-8328243fe61c5d7e.json"
+    },
+    {
+      "trade_date": "2025-07-30",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250730",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:b4875d72bd51e4dd3833a9116d93b5a5dfec1ab82700d649ee0d156a20a0e36e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250730-b4875d72bd51e4dd.json",
+      "market_receipt_sha256": "sha256:65a38e07cfbc3788123ef75d87975c206854c79e129ac5bec4b5834a5346f160",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250730-65a38e07cfbc3788.json"
+    },
+    {
+      "trade_date": "2025-08-28",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250828",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:f9b4237f78c49293bb121cb4afe2794039b879cace20d8210ed24fabd8efe83b",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250828-f9b4237f78c49293.json",
+      "market_receipt_sha256": "sha256:3aea9e517734f5005581043a39446b336e22327dcf30e70bcc0dbacd94ffcd4d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250828-3aea9e517734f500.json"
+    },
+    {
+      "trade_date": "2025-08-29",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250829",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:16bd9358268feea3b2b89fb7c297b59aa643e9d358cd2a61df4c6f4f7813757e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250829-16bd9358268feea3.json",
+      "market_receipt_sha256": "sha256:b430872c36bad0b3b8ff532312c26cf5d7d5a923fdda140d76c602c51609f2ca",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250829-b430872c36bad0b3.json"
+    },
+    {
+      "trade_date": "2025-09-01",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250901",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:a89b042b3309c3b0671a597a6a47bf265157fc0ff45de394d08dd2f26ffa71e7",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250901-a89b042b3309c3b0.json",
+      "market_receipt_sha256": "sha256:18e3839653fcac661adbc54eb44ea28e199cc3f589c8f492989329c443356c41",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250901-18e3839653fcac66.json"
+    },
+    {
+      "trade_date": "2025-09-02",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250902",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:204fd264ed275bf43eea130b0f4454539f9e825fda39d52213a3b04b2f72827c",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250902-204fd264ed275bf4.json",
+      "market_receipt_sha256": "sha256:6bffb7cd8beff21269e0d676fba8375103a965dcdbe177e3d3badf02140450b4",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250902-6bffb7cd8beff212.json"
+    },
+    {
+      "trade_date": "2025-09-03",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250903",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:cb158e836f439457b7b42e74bfb86e301d11e6473d367d38e365ef336e34ab03",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250903-cb158e836f439457.json",
+      "market_receipt_sha256": "sha256:0d663de3b0ae0e04d69d866b7639e452952e8ffb143649440138bde195a8c92d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250903-0d663de3b0ae0e04.json"
+    },
+    {
+      "trade_date": "2025-09-04",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250904",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:ba1a0ec98d421774b541f770b05367230a720ac3d3fcb9ffe60da77b4e12f81e",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250904-ba1a0ec98d421774.json",
+      "market_receipt_sha256": "sha256:86d516512981de1564a538b034f473efe529dfcfb018e7678994c39f0f563ec9",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250904-86d516512981de15.json"
+    },
+    {
+      "trade_date": "2025-09-05",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250905",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:2f0185db6fa6df4824369f2e20809afa98fea0bbb7dfcf9a28d56bcbc822870b",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250905-2f0185db6fa6df48.json",
+      "market_receipt_sha256": "sha256:536e7d16b159db846deb04fe182a83edb0c52b96aee976e5b036ad0fd1dbaa4f",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250905-536e7d16b159db84.json"
+    },
+    {
+      "trade_date": "2025-09-08",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250908",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:35d7f449430480da2d6eb8d30f9ce910eef19c1de300593bc36df976360db359",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250908-35d7f449430480da.json",
+      "market_receipt_sha256": "sha256:8c35e53d402feb06b6e9daf4098e4e15822b8a1ced9d60946d55ecc86027b79d",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250908-8c35e53d402feb06.json"
+    },
+    {
+      "trade_date": "2025-09-09",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250909",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:99f8204d006e4dad51a888ccf623f725d2affa45e0e61b5f9190d02b03a1dc75",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250909-99f8204d006e4dad.json",
+      "market_receipt_sha256": "sha256:361b5c286c33d16b28195c9253b6e2a7afe55669681c43b42f45d5772e8f8e49",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250909-361b5c286c33d16b.json"
+    },
+    {
+      "trade_date": "2025-09-10",
+      "canonical_code": "920680.BJ",
+      "suspend_d_code": "839680.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250910",
+          "ts_code": "839680.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:47f3cc77d22b28bc33f8b2e95ee2898cb979bd6de30f23494f36ec7d45cadf53",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250910-47f3cc77d22b28bc.json",
+      "market_receipt_sha256": "sha256:1d54bf58b7e0a2eac496600263f17dd60428e991b5d9c8d017dfe4b191c5bc71",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250910-1d54bf58b7e0a2ea.json"
+    },
+    {
+      "trade_date": "2025-09-16",
+      "canonical_code": "920961.BJ",
+      "suspend_d_code": "831961.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250916",
+          "ts_code": "831961.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:f9506b42ca4c33ec29b2c97e00e494c33791511af8e686b5e14af7a5e01652d2",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250916-f9506b42ca4c33ec.json",
+      "market_receipt_sha256": "sha256:dadcaa907deacac870b14a8fc7bac4cd672c6de0f8bd57c74d5f7adaa0d39863",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250916-dadcaa907deacac8.json"
+    },
+    {
+      "trade_date": "2025-09-17",
+      "canonical_code": "920961.BJ",
+      "suspend_d_code": "831961.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250917",
+          "ts_code": "831961.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:3ac17afcfb05aa19064f6acb2d73cce976eb8e1b36eebf40cbf6850393e14326",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250917-3ac17afcfb05aa19.json",
+      "market_receipt_sha256": "sha256:00b043e8913adb734d46bbcb3b5b6fd990ce4648b6f6dc796160add94173fd18",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250917-00b043e8913adb73.json"
+    },
+    {
+      "trade_date": "2025-09-18",
+      "canonical_code": "920961.BJ",
+      "suspend_d_code": "831961.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250918",
+          "ts_code": "831961.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:42721eac8abb86a79566116d06932e36d3d4f9dcd6267127d78106aa42dcaaf3",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250918-42721eac8abb86a7.json",
+      "market_receipt_sha256": "sha256:e8974368760ea74f8f85e678f47a49900d64e77e991eb1ad103571f87f38e3af",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250918-e8974368760ea74f.json"
+    },
+    {
+      "trade_date": "2025-09-19",
+      "canonical_code": "920961.BJ",
+      "suspend_d_code": "831961.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250919",
+          "ts_code": "831961.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:50bec5a10ce7f5cbab11681ec367a8f1e129a0c183f05de3259f95d56a38cf92",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250919-50bec5a10ce7f5cb.json",
+      "market_receipt_sha256": "sha256:93e4667b4c93e28c3a9550cc88f9ac392d99c0811416dbaa571ec75d36441da6",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250919-93e4667b4c93e28c.json"
+    },
+    {
+      "trade_date": "2025-09-22",
+      "canonical_code": "920961.BJ",
+      "suspend_d_code": "831961.BJ",
+      "classification": "BSE_OLD_CODE_FULL_DAY_S",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20250922",
+          "ts_code": "831961.BJ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:09cf7f22912270e55b309f91c4efb62af528b40534070fda0602af027cb03dee",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20250922-09cf7f22912270e5.json",
+      "market_receipt_sha256": "sha256:fc0480d0d9d6aec6ed575c21fea079ff2494187e5d5b8a4c660255e8f439ab88",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20250922-fc0480d0d9d6aec6.json"
+    },
+    {
+      "trade_date": "2025-11-04",
+      "canonical_code": "603897.SH",
+      "suspend_d_code": "603897.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20251104",
+          "ts_code": "603897.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20251104",
+          "ts_code": "603897.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:d52da99d62ab8e329f2b1ae105fcae00c56cf9cd5ff1cb9dfa2abaae24b95f35",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20251104-d52da99d62ab8e32.json",
+      "market_receipt_sha256": "sha256:2d46b1cb09e7a1df88f3ea8781a59da9bff28f344e98b50a8493450b96a27066",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20251104-2d46b1cb09e7a1df.json"
+    },
+    {
+      "trade_date": "2025-11-26",
+      "canonical_code": "688766.SH",
+      "suspend_d_code": "688766.SH",
+      "classification": "TIMED_S_NO_DAILY_BAR",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20251126",
+          "ts_code": "688766.SH"
+        },
+        {
+          "suspend_timing": "09:30-09:30",
+          "suspend_type": "S",
+          "trade_date": "20251126",
+          "ts_code": "688766.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:be3fc69e660b2794df979a8d8f8b760fb318705cff2ec96933ee05eeaea48eb3",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20251126-be3fc69e660b2794.json",
+      "market_receipt_sha256": "sha256:844f0798f454d92cd9b3bd44ae5cef52906477003d52ac461e1340366d5cdd80",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20251126-844f0798f454d92c.json"
+    },
+    {
+      "trade_date": "2026-01-12",
+      "canonical_code": "603056.SH",
+      "suspend_d_code": "603056.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260112",
+          "ts_code": "603056.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260112",
+          "ts_code": "603056.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:561a5d18cfcabbaa9f62fa9fc52e3e86d7ce1c56b4b9d8b6845815bfae1b7da1",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260112-561a5d18cfcabbaa.json",
+      "market_receipt_sha256": "sha256:a320234ea3c4b21d3e9e51389846bf75ca350f24d7e17c09f1f20a110f33ca13",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260112-a320234ea3c4b21d.json"
+    },
+    {
+      "trade_date": "2026-01-13",
+      "canonical_code": "605028.SH",
+      "suspend_d_code": "605028.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260113",
+          "ts_code": "605028.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260113",
+          "ts_code": "605028.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:63fcc574579cd9bd911012065f52edd943dad597b5553209f2025eb8a812a25d",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260113-63fcc574579cd9bd.json",
+      "market_receipt_sha256": "sha256:4a205833e76655a821f8c064329dfbda0ebe9d022a09d731b164c5cb47c276ad",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260113-4a205833e76655a8.json"
+    },
+    {
+      "trade_date": "2026-01-15",
+      "canonical_code": "688005.SH",
+      "suspend_d_code": "688005.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260115",
+          "ts_code": "688005.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260115",
+          "ts_code": "688005.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:33b33d6154262eb4b55d490af8913fce2b84a4434588f998ad80a9cea72f29df",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260115-33b33d6154262eb4.json",
+      "market_receipt_sha256": "sha256:3b9b623c0bbbf1b96fae3a77558f1a6471fea7f3b2f57ade4b804344dba693e8",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260115-3b9b623c0bbbf1b9.json"
+    },
+    {
+      "trade_date": "2026-01-16",
+      "canonical_code": "688005.SH",
+      "suspend_d_code": "688005.SH",
+      "classification": "TIMED_S_NO_DAILY_BAR",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": "09:30-09:30",
+          "suspend_type": "S",
+          "trade_date": "20260116",
+          "ts_code": "688005.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:948cc81778d794a3b163331fb574c0916162980be07d0cf07beaafcaae6573bd",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260116-948cc81778d794a3.json",
+      "market_receipt_sha256": "sha256:9c9ab3443ff10d4e087085b422c71bad15210a2b67a509a8443d6d2a9af639ed",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260116-9c9ab3443ff10d4e.json"
+    },
+    {
+      "trade_date": "2026-01-22",
+      "canonical_code": "603616.SH",
+      "suspend_d_code": "603616.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260122",
+          "ts_code": "603616.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260122",
+          "ts_code": "603616.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:2c7f7dd7a0a2b89d5077e92cf20613078f388b6d1382b4d3a6311181f23ebae1",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260122-2c7f7dd7a0a2b89d.json",
+      "market_receipt_sha256": "sha256:34c5e141b951a8e14612cb9a9002b1b255c2fdf229b52c9c939358eef9e93941",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260122-34c5e141b951a8e1.json"
+    },
+    {
+      "trade_date": "2026-06-16",
+      "canonical_code": "603159.SH",
+      "suspend_d_code": "603159.SH",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260616",
+          "ts_code": "603159.SH"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260616",
+          "ts_code": "603159.SH"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:19709d5374341eb3f082aff3698ba6eb28c1acc62c8dacc875f604fe7e0162d0",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260616-19709d5374341eb3.json",
+      "market_receipt_sha256": "sha256:c4871c9016bb41d1392965da6ddf08b753e5b8accb379d36fde9a8d1c4ce3777",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260616-c4871c9016bb41d1.json"
+    },
+    {
+      "trade_date": "2026-07-06",
+      "canonical_code": "002731.SZ",
+      "suspend_d_code": "002731.SZ",
+      "classification": "S_R_SAME_DAY",
+      "suspend_d_rows": [
+        {
+          "suspend_timing": null,
+          "suspend_type": "S",
+          "trade_date": "20260706",
+          "ts_code": "002731.SZ"
+        },
+        {
+          "suspend_timing": null,
+          "suspend_type": "R",
+          "trade_date": "20260706",
+          "ts_code": "002731.SZ"
+        }
+      ],
+      "daily_rows_for_codes": [],
+      "day_receipt_sha256": "sha256:8480d66aef9ee318125ff7e7154b49e79b863e2c45fe1d62c246b1bc4a6a5334",
+      "day_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-day-20260706-8480d66aef9ee318.json",
+      "market_receipt_sha256": "sha256:5e061bb07e236add3b542f47c049c040c57e377e830ce642630d75d4491aba0a",
+      "market_receipt_path": "/Users/wyh/earn_project/quant_research/stock_selection_server/audited_sources/historical-market-20260706-5e061bb07e236add.json"
+    }
+  ]
+}
